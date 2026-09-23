@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>K.M MONIS Story</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #222;
+}
+
+.page {
+    min-height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.active {
+    display: flex;
+}
+
+/* PAGE 1 */
+.welcome {
+    text-align: center;
+    background: white;
+    width: 100%;
+    max-width: 500px;
+    padding: 60px 25px;
+    border-radius: 20px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.15);
+}
+
+.welcome h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.welcome p {
+    font-size: 18px;
+    color: #666;
+}
+
+button {
+    margin-top: 25px;
+    padding: 15px 40px;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    background: #111;
+    color: white;
+    cursor: pointer;
+}
+
+/* PAGE 2 */
+.story-page {
+    display: none;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.story-container {
+    max-width: 750px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+}
+
+.story-container h1 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.story-container p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.ad {
+    margin: 25px 0;
+    height: 90px;
+    border: 2px dashed #aaa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #888;
+    font-size: 14px;
+}
+
+/* PAGE 3 */
+.end-page {
+    display: none;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+}
+
+.end-box {
+    background: white;
+    padding: 50px 25px;
+    border-radius: 20px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.15);
+}
+
+.end-box h1 {
+    font-size: 32px;
+}
+
+.creator {
+    margin-top: 25px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* MOBILE */
+@media(max-width:600px) {
+    .welcome h1 {
+        font-size: 40px;
+    }
+
+    .story-container h1 {
+        font-size: 27px;
+    }
+
+    .story-container p {
+        font-size: 17px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- PAGE 1 -->
+<section id="page1" class="page active">
+
+    <div class="welcome">
+
+        <h1>WELCOME</h1>
+
+        <p>
+            Welcome to our story website.
+            Read an inspiring story and enjoy the journey.
+        </p>
+
+        <button onclick="openStory()">
+            CONTINUE
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- PAGE 2 -->
+<section id="page2" class="story-page">
+
+    <div class="story-container">
+
+        <h1>The Small Idea That Changed Everything</h1>
+
+        <!-- AD SPACE -->
+        <div class="ad">
+            Advertisement
+        </div>
+
+        <p>
+        There was once a young boy named Arman who loved creating new ideas.
+        He lived in a small town where most people believed that success was
+        only possible for people who already had money, large businesses, or
+        important connections. Arman did not have any of these things, but he
+        had curiosity and a strong desire to learn.
+        </p>
+
+        <p>
+        Every evening, Arman spent some time learning about websites and the
+        internet. At first, he did not understand coding. Sometimes a single
+        missing symbol could stop his entire website from working. Instead of
+        giving up, he searched for the problem and tried again. Slowly, he
+        started understanding how websites were created.
+        </p>
+
+        <p>
+        One day, Arman had an idea. He wanted to create a simple website where
+        people could read interesting stories. He believed that if visitors
+        enjoyed the stories, the website could eventually earn money through
+        advertisements. He knew that advertisements alone would not make a
+        website successful. The website needed useful and original content,
+        a clean design, and visitors who wanted to return.
+        </p>
+
+        <!-- AD SPACE -->
+        <div class="ad">
+            Advertisement
+        </div>
+
+        <p>
+        Arman started writing his first story. He spent several hours checking
+        every paragraph. He made sure the words were easy to understand and
+        that the story had a meaningful ending. Then he created a simple
+        homepage with a large welcome message and a continue button.
+        </p>
+
+        <p>
+        In the beginning, only a few people visited his website. Arman was
+        disappointed, but he remembered something his teacher had once told
+        him: good things usually take time. Instead of looking for shortcuts,
+        he continued improving the website.
+        </p>
+
+        <p>
+        He added more stories, improved the mobile design, and made the pages
+        faster. He also learned that advertisements should not cover the
+        important content. They should be placed carefully so visitors could
+        still enjoy reading.
+        </p>
+
+        <p>
+        After several months, more people began discovering his stories.
+        Some visitors shared them with their friends. The website slowly
+        became popular. Arman eventually applied to an advertising program and,
+        after meeting its requirements, advertisements began appearing on his
+        website.
+        </p>
+
+        <p>
+        The money he earned at first was very small. However, Arman was happy
+        because it proved that a useful idea could become a real project.
+        He understood that making money online was not magic. It required
+        patience, original work, learning, and responsible use of technology.
+        </p>
+
+        <!-- AD SPACE -->
+        <div class="ad">
+            Advertisement
+        </div>
+
+        <p>
+        Years later, Arman remembered the first day he opened his website.
+        The page had been simple, the audience had been tiny, and he had known
+        almost nothing about online business. But that small beginning had
+        taught him an important lesson: every successful project starts with
+        one idea and one step.
+        </p>
+
+        <p>
+        The lesson of Arman's journey was simple. You do not need to start
+        with everything. Start with what you have, learn something every day,
+        improve your work, and give people something useful. A small website
+        can become a bigger project when its creator keeps learning and never
+        stops improving.
+        </p>
+
+        <button onclick="openEnd()">
+            FINISH STORY
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- PAGE 3 -->
+<section id="page3" class="end-page">
+
+    <div class="end-box">
+
+        <h1>Thank You For Reading!</h1>
+
+        <p>
+            We hope you enjoyed the story.
+        </p>
+
+        <div class="creator">
+            Website Created by K.M MONIS
+        </div>
+
+    </div>
+
+</section>
+
+
+<script>
+
+function openStory() {
+
+    document.getElementById("page1").classList.remove("active");
+
+    document.getElementById("page1").style.display = "none";
+
+    document.getElementById("page2").style.display = "block";
+
+    window.scrollTo(0, 0);
+}
+
+
+function openEnd() {
+
+    document.getElementById("page2").style.display = "none";
+
+    document.getElementById("page3").style.display = "flex";
+
+    window.scrollTo(0, 0);
+}
+
+</script>
+
+</body>
+</html>
